@@ -1,0 +1,287 @@
+<TableLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TableRow
+        android:background="@drawable/text_box_underline">
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/wtiv"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/jerry"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="16dp"
+                android:padding="5dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="5dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/wttv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:text="Name"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="DOB:"
+                        android:textSize="20sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginTop="5dp"
+                        android:text="DOB"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="20sp"
+                        android:id="@+id/wttv2"/>
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="0dp"
+                    android:layout_marginVertical="8dp"
+                    android:background="#3e3ee6"
+                    android:text="Edit Profile"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </TableRow>
+    <TableRow
+        android:background="@drawable/text_box_underline">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginVertical="8dp"
+                android:text="Age:"
+                android:textSize="20sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/wttv3"
+                    android:textSize="20sp"
+                    android:text="Age"
+                    android:padding="5dp"
+                    android:layout_margin="8dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginVertical="8dp"
+                android:text="Sex:"
+                android:textSize="20sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/wttv4"
+                    android:textSize="22sp"
+                    android:text="Sex"
+                    android:padding="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_margin="8dp"/>
+        </LinearLayout>
+
+        </LinearLayout>
+    </TableRow>
+    <TableRow
+        android:background="@drawable/text_box_underline">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_margin="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginVertical="8dp"
+                android:text="Profession:"
+                android:textSize="20sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/wttv5"
+                    android:textSize="20sp"
+                    android:text="Profession"
+                    android:padding="5dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginVertical="8dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginVertical="8dp"
+                android:text="Sub_category:"
+                android:textSize="20sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/wttv6"
+                    android:textSize="20sp"
+                    android:text="Sub-Category"
+                    android:padding="5dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="8dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginVertical="8dp"
+                android:text="Expected-salary:"
+                android:textSize="20sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/wttv7"
+                    android:textSize="20sp"
+                    android:text="Salary"
+                    android:padding="5dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginVertical="8dp"
+                    android:layout_marginHorizontal="10dp"/>
+        </LinearLayout>
+
+        </LinearLayout>
+    </TableRow>
+    <TableRow
+        android:background="@drawable/text_box_underline">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:paddingHorizontal="5dp"
+                android:paddingVertical="10dp"
+                android:text="Rating"
+                android:textSize="20dp" />
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginVertical="8dp"
+                android:numStars="5"
+                android:rating="3"
+                />
+        </LinearLayout>
+    </TableRow>
+    <TableRow
+        android:layout_margin="5dp">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Notification"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:background="#3e3ee6"
+                android:id="@+id/wtb1"
+                android:layout_margin="5dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#fff"
+                android:background="#3e3ee6"
+                android:text="Contact Us"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:id="@+id/wtb2"
+                android:layout_margin="5dp"
+                android:onClick="contactUs"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#fff"
+                android:background="#3e3ee6"
+                android:text="Logout"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:id="@+id/wtb3"
+                android:layout_margin="5dp"
+                android:onClick="logout"/>
+
+
+        </LinearLayout>
+    </TableRow>
+
+</TableLayout>

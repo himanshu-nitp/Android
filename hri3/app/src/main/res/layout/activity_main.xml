@@ -1,0 +1,85 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/cll1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="toServices"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin-9755404637"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pswd-9755404637"
+        android:layout_marginBottom="8dp"/>
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Welcome  to  Login  Page"
+        android:textSize="30dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#595959"/>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/lpsp1"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Username(Contact no.)"
+        android:ems="10"
+        android:id="@+id/lpet1"
+        android:textSize="22dp"
+        android:layout_marginLeft="5dp"
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lpet2"
+        android:hint="Password"
+        android:ems="10"
+        android:textSize="22dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="8dp"
+        android:inputType="textPassword"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lpb1"
+        android:text="Login"
+        android:textSize="20dp"
+        android:layout_marginTop="8dp"
+        android:textAllCaps="false"
+        android:background="#3366ff"
+        android:textColor="#fff"
+        android:paddingHorizontal="90dp"
+        android:onClick="userLogin"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/text_box_underline"
+        android:textColor="#1a53ff"
+        android:id="@+id/lptv1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cltv2"
+        android:text="Create new acount"
+        android:textSize="20dp"
+        android:background="@drawable/text_box_underline"
+        android:layout_marginTop="20dp"
+        android:textColor="#1a53ff"
+        android:onClick="registration_form" />
+
+</LinearLayout>
